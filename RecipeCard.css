@@ -1,0 +1,671 @@
+.full-page-div{
+    width:90%;
+    margin: 0 auto;
+}
+
+.name-header{
+    font-family:'Raleway';
+    font-size:25px;
+    color:grey;
+    text-transform: uppercase;
+    /*border-bottom: 1px solid rgb(187, 179, 179);*/
+    margin-bottom:80px;
+}
+
+.feature-recipe-div{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-bottom:80px;
+    margin-top:60px;
+}
+
+.feature-paragraph-div{
+    width:45%;
+    box-sizing: border-box;
+    padding-right:40px;
+}
+
+.feature-recipe-talk, .feature-recipe-link{
+    text-indent:10px;
+    font-family:'Cormorant';
+    font-size: 18px;
+}
+
+.feature-recipe-link{
+    color:grey;
+}
+
+.feature-recipe-link:hover{
+    color:black;
+}
+
+.feature-recipe-header{
+    margin-top:100px;
+    text-align: center;
+    font-family:'Raleway';
+    font-size:50px;
+    color:black;
+    font-weight:400;
+}
+
+.header-wrapper{
+    position: sticky;
+    top: 0;
+    z-index:10;
+    width:100%;
+    background-color: white;
+}
+
+.header-nav{
+    display:flex;
+    list-style:none;
+    justify-content:space-evenly;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom:10px;
+    padding-left: 0;
+    margin-bottom:0;
+    z-index:10;
+}
+
+.header-nav-link{
+    text-decoration:none;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color:black;
+}
+
+.header-nav-link-wrapper{
+    position: relative;
+}
+
+.header-nav-link::before{
+    content:"";
+    width:0px;
+    height:1px;
+    background-color:black;
+    position:absolute;
+    top:10px;
+    left:-30px;
+    transition: width .3s ease-in;
+}
+
+.header-nav-link::after{
+    content:"";
+    width:0px;
+    height: 1px;
+    background-color: black;
+    position:absolute;
+    top:10px;
+    right:-30px;
+    transition: width .3s ease-in;
+}
+
+.header-nav-link:hover::before,.header-nav-link:hover::after{
+    width:25px;
+}
+
+.header-nav-link:hover{
+    text-decoration:none;
+    color:black;
+}
+
+.header-nav-link-dropdown{
+    position:relative;
+}
+
+.second-nav-list{
+    visibility:hidden;
+    list-style:none;
+    font-family:'Raleway';
+    text-transform:uppercase;
+    color:grey;
+    position:absolute;
+    top:20px;
+    text-align:left;
+    padding:10px;
+    line-height: 40px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.second-nav-link{
+    text-decoration:none;
+    color:rgb(59, 53, 53);
+}
+
+.header-nav-link-dropdown:hover .second-nav-list{
+    visibility:visible;
+    text-decoration:none;
+    background-color:rgb(208, 215, 230);
+}
+
+
+.search-icon{
+    position:relative;
+}
+
+.search{
+    position:absolute;
+    padding:6px;
+}
+
+.search-area{
+    border: 1px solid lightgray;
+    text-indent:19px;
+    font-family:'Raleway';
+}
+
+.search-area:hover{
+    outline:none;
+}
+
+.search-area:focus{
+    outline:none;
+}
+
+.main-img-div{
+    width:45%;
+}
+
+.main-img{
+    width:100%;
+    max-width:100%;
+    height:650px;
+    object-fit: cover;
+}
+
+.cite{
+    margin-top:1px;
+    font-family:'Cormorant';
+}
+
+/*end of section*/
+/*main content*/
+
+.main-section{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+
+.main-content-area-3{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.universal-post-3{
+    width:60%;
+    font-family:'Cormorant';
+    margin-bottom: 40px;
+}
+
+.universal-post-4{
+    width:35%;
+    font-family:'Cormorant';
+    margin-bottom: 40px;
+}
+ 
+.main-content-area-1{
+    display:flex;
+    flex-wrap: wrap;
+    width:60%;
+}
+
+.main-content-area-2{
+    width:30%;
+}
+
+.universal-post{
+    width:100%;
+    font-family:'Cormorant';
+    margin-bottom: 40px;
+}
+
+.post-header{
+    font-family:'Raleway';
+    font-size:22px;
+    text-align:center;
+    margin:5px 0px 0px 0px;
+    text-transform:uppercase;
+}
+
+.post-paragraph{
+    font-size:18px;
+    text-indent:10px;
+    margin-top: 10px;
+}
+
+.post-link{
+    color:grey;
+    font-size:18px;
+}
+
+.post-link:hover{
+    color:black;
+}
+
+/*.sidebar-wrapper{
+    width:20%;
+}
+
+.sign-up{
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+    border: 1px solid black;
+}
+
+.form-input-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+
+.get{
+    text-align:center;
+}
+
+#e-mail,#first-name,#last-name{
+    width:100%;
+    padding:8px;
+    font-family:'Cormorant';
+    box-sizing:border-box;
+    margin-bottom:5px;
+
+}
+
+.btn{
+    width:50%;
+    background-color:rgb(208, 215, 230); 
+    font-family:'Cormorant';
+    border:none;
+    padding: 8px;
+    transform:translateX(50%);
+    margin-bottom:10px;
+}
+*/
+
+.author-info{
+    width:100%;
+    padding:20px;
+    box-sizing:border-box;
+    border:1px solid black;
+    font-family:'Cormorant';
+    font-size:18px;
+    margin-bottom:60px;
+}
+
+
+.author-paragraph{
+    text-indent:10px;
+    margin-top: 10px;
+}
+
+.social-links{
+    /*width:50%;*/
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+i{
+    font-size:18px;
+    color:gray;
+}
+
+.search{
+    font-size: 14px;
+}
+
+.author-img{
+    width:100%;
+    height:auto;
+}
+
+.post-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*footer*/
+
+.footer-container{
+    display:grid;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+
+.popular{
+    grid-column: 2/3;
+    font-family: 'Raleway';
+    font-size: 13px;
+    letter-spacing:2px;
+    text-align: left;
+}
+
+.popular-recipes{
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-family:'Cormorant';
+    font-size: 16px;
+    line-height:25px;
+    text-align:left;
+}
+
+.popular-link:hover{
+    text-decoration: underline;
+}
+
+.connect{
+    grid-column: 3/4;
+    font-family:'Raleway';
+    font-size:13px;
+    letter-spacing:2px;
+}
+
+.footer-header{
+    margin-bottom:50px;
+    margin-top:50px;
+    font-family:'Raleway';
+    font-size: 14px;
+    letter-spacing:2px;
+}
+
+.footer-container{
+    border-top: 1px solid black;
+}
+
+.about-footer-p{
+    font-family: 'Cormorant';
+    text-indent:10px;
+    box-sizing: border-box;
+    padding-right:34px;
+}
+
+.delicious-header, .connect-header{
+    text-align:center;
+}
+
+.input-wrapper{
+    text-align: center;
+}
+
+.search-input{
+    width:80%;
+    padding:6px;
+    box-sizing:border-box;
+    margin-bottom:10px;
+    font-family:'Raleway';
+    border:1px gray solid;
+}
+
+.search-input:hover{
+    outline:none;
+}
+
+.search-input:focus{
+    outline:none;
+}
+
+.search-btn{
+    width:40%;
+    background-color:rgb(208, 215, 230); 
+    font-family:'Cormorant';
+    border:none;
+    padding: 8px;
+}
+
+.search-btn:hover, .search-btn:focus{
+    outline:none;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-links{
+    display:flex;
+    justify-content:center;
+}
+
+.far,.fab{
+    padding:7px;
+}
+
+
+/*end of footer*/
+
+/*label{
+    /*transform: translateX(50%);
+    margin: auto;
+}*/
+
+/*.menu-icon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.click{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+
+@media(min-width: 1350px){
+    .full-page-div{
+        width:80%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:1800px){
+    .full-page-div{
+        width:70%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:2300px){
+    .full-page-div{
+        width:60%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:1050px){
+
+    .line{
+        width:24px;
+        height:2px;
+        background-color:blk;
+        margin-bottom:10px;
+    }
+
+    .header-wrapper{
+        display:none;
+    }
+
+    .checkbox:checked ~ .header-wrapper{
+        display: block;
+    }
+
+    .header-nav{
+        flex-direction:column;
+        border-top: 1px solid rgb(208, 215, 230);
+        align-items: center;
+        padding:0;
+    }
+
+    .header-nav-link-wrapper{
+        margin-bottom: 15px;
+    }
+
+    .second-nav-list{
+        display: none;
+    }
+
+    .footer-container{
+        grid-template-columns: 20% 30% 30% 20%;
+        grid-template-rows: min-content;
+    }
+
+    .about{
+        grid-column:2/3;
+    }
+
+    .popular{
+        grid-column:3/4;
+    }
+
+    .connect{
+        grid-column: 2/3;
+    }
+
+    .find-footer{
+        grid-column:3/4;
+    }
+
+    .popular-header{
+        text-align: center;
+    }
+
+    .popular-recipes{
+        text-align: center;
+    }
+
+    .about-header{
+        text-align:center;
+    }
+
+    .about-footer-p{
+        padding-right: 0;
+    }
+}
+
+@media(max-width:900px){
+
+    .footer-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about,.popular,.connect,.find-footer{
+        width:40%;
+    }
+
+    .footer-header{
+        margin-bottom: 10px;
+        text-align:center;
+    }
+
+    .about-footer-p{
+        text-align: center;
+        padding-right: 0;
+    }
+
+    /*.far,.fab{
+        justify-content: center;
+    }*/
+
+    .feature-recipe-div{
+        margin-top: 0;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-img-div{
+        width:100%;
+    }
+
+    .feature-paragraph-div{
+        padding-right: 0;
+        width:90%;
+    }
+
+    /*.main-section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .main-content-area-1{
+        width:100%;
+    }
+
+    .main-content-area-2{
+        width:40%;
+    }*/
+
+    .main-content-area-3{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .universal-post-3{
+        width:100%;
+    }
+
+    .universal-post-4{
+        width:100%;
+    }
+}
+
+@media(max-width:700px){
+    .main-section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .main-content-area-1{
+        width:100%;
+    }
+
+    .main-content-area-2{
+        width:60%;
+    }
+}
+
+@media(max-width:525px){
+    .main-section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .main-content-area-1{
+        width:100%;
+    }
+
+    .main-content-area-2{
+        width:70%;
+    }
+}
+
+@media(max-width:375px){
+    .search-btn{
+        width:60%;
+    }
+}
