@@ -632,6 +632,10 @@ i{
     }
 }
 
+.hidden{
+    display:none;
+}
+
 @media(max-width:700px){
     .main-section{
         display:flex;
