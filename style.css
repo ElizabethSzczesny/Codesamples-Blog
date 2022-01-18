@@ -6,7 +6,7 @@
 .name-header{
     font-family:'Raleway';
     font-size:25px;
-    color:grey;
+    color:#6d7076;
     text-transform: uppercase;
     /*border-bottom: 1px solid rgb(187, 179, 179);*/
     margin-bottom:80px;
@@ -33,7 +33,7 @@
 }
 
 .feature-recipe-link{
-    color:grey;
+    color:#6d7076;
 }
 
 .feature-recipe-link:hover{
@@ -120,7 +120,7 @@
     list-style:none;
     font-family:'Raleway';
     text-transform:uppercase;
-    color:grey;
+    color:#6d7076;
     position:absolute;
     top:20px;
     text-align:left;
@@ -148,7 +148,7 @@
 
 .search{
     position:absolute;
-    padding:6px;
+    padding:7px;
 }
 
 .search-area{
@@ -163,6 +163,10 @@
 
 .search-area:focus{
     outline:none;
+}
+
+i{
+    color:#6d7076
 }
 
 .main-img-div{
@@ -240,7 +244,7 @@
 }
 
 .post-link{
-    color:grey;
+    color:#6d7076;
     font-size:18px;
 }
 
@@ -304,19 +308,9 @@
     margin-top: 10px;
 }
 
-.social-links{
-    /*width:50%;*/
-    list-style: none;
-    display:flex;
-    justify-content: space-around;
-    padding:0;
-    box-sizing:border-box;
-    
-}
-
-i{
-    font-size:18px;
-    color:gray;
+.social-icon{
+    padding:8px;
+    box-sizing: content-box;
 }
 
 .search{
@@ -394,6 +388,7 @@ i{
 }
 
 .input-wrapper{
+    position:relative;
     text-align: center;
 }
 
@@ -434,10 +429,6 @@ i{
 .connect-links{
     display:flex;
     justify-content:center;
-}
-
-.far,.fab{
-    padding:7px;
 }
 
 
@@ -633,7 +624,8 @@ i{
 }
 
 .hidden{
-    display:none;
+    position:absolute;
+    color:white;
 }
 
 @media(max-width:700px){

@@ -21,9 +21,9 @@
 <div class="full-page-div">
    
 <!--header-->
-    
+    <header>
     <h1 class="name-header">Lacy Roe Recipes</h1>
-
+    </header>
    
     <input type="checkbox" class="checkbox" id="click" hidden>
     <label class="click" for="click">
@@ -70,7 +70,7 @@
                 <a href=# class="header-nav-link">Contact</a>
             </li>
             <li class="header-nav-link-wrapper">
-                <a href=# class="header-nav-search" class="search-icon"><i class="fas fa-search search"></i><input type="text" class="search-area"><span class="hidden">Search</span></a>
+                <a href=# role="search" class="header-nav-search" class="search-icon"><i class="fas fa-search search"></i><input type="text" class="search-area"></a>
             </li>
         </ul>
     </nav>
@@ -79,7 +79,7 @@
 
 <!--feature post-->
 
-    <div class="feature-recipe-div">
+    <main class="feature-recipe-div">
         <div class="feature-paragraph-div">
             <h2 class="feature-recipe-header">Winter Citrus Salad</h2>
             <p class="feature-recipe-talk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe facilis, iure sed quo, expedita nam voluptates consequatur eius vero omnis accusantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quibusdam voluptatem facilis aut cumque consequuntur fugiat dicta, praesentium sapiente mollitia in nobis dolorum voluptates iste, laboriosam porro saepe maiores vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod laboriosam quia voluptates totam eius distinctio nobis. Asperiores cum nulla quos. Eligendi omnis numquam amet atque in tempora vitae ipsa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -88,7 +88,7 @@
         <div class="main-img-div">
             <img class="main-img" alt="oranges" src="https://i.pinimg.com/474x/ec/fd/c2/ecfdc275e6532204bfbb4af8408ea294.jpg">
         </div>
-    </div>
+    </main>
 
 <!--end of feature post-->
 
@@ -99,12 +99,12 @@
 <div class="main-section">
 
     <div class="main-content-area-1" >
-        <div class="universal-post">
+        <section class="universal-post">
             <img class="post-image" alt="muffins" src="https://i.pinimg.com/474x/f0/a0/09/f0a0097542d495e735709094ac864841.jpg">
             <h3 class="post-header">Lorem Ipsum</h3>
             <p class="post-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam suscipit sint deleniti explicabo, maiores obcaecati quaerat aliquid molestiae dolore, quam porro. Ut consequatur beatae iure itaque laborum eaque? Distinctio.</p>
             <p><a href="#" class="post-link">Continue Reading</a></p>
-        </div>
+        </section>
 
         <!--<div class="universal-post">
             <img class="post-image" src="https://i.pinimg.com/474x/ec/fd/c2/ecfdc275e6532204bfbb4af8408ea294.jpg">
@@ -122,7 +122,7 @@
     </div>       
 
     <div class="main-content-area-2">
-        <div class="author-info">
+        <aside class="author-info">
             <img class="author-img" alt="baking" src="https://i.pinimg.com/474x/da/d0/f0/dad0f047197851087877ff134b6adae3.jpg">
             <p class="author-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quibusdam ea amet beatae, reprehenderit nihil quaerat natus corrupti recusandae doloribus sint placeat repellat saepe cumque.</p>
             <p>Thanks for visiting!</p> 
@@ -134,29 +134,38 @@
                 <li><a href=#><i class="fa-li fab fa-facebook-square"></i></a></li>
             </ul>-->
             <div class="connect-links">
-                <a href=#><i class="far fa-envelope"></i><span class="hidden">Gmail</span></a>
-                <a href=#><i class="fab fa-instagram"></i><span class="hidden">Instagram</span></a>
-                <a href=#><i class="fab fa-pinterest"></i><span class="hidden">Pinterest</span></a>
-                <a href=#><i class="fab fa-facebook-square"></i><span class="hidden">Facebook</span></a>
+                <a href=#>
+                    <img src="icons/envelope-regular.svg" alt="email us link" width="18px" height="18px" class="social-icon">
+                </a>
+                <a href=#>
+                    <img src="icons/instagram-brands.svg" alt="instagram link" width="18px" height="18px" class="social-icon">
+                </a>
+                <a href=#>
+                    <img src="icons/pinterest-brands.svg" alt="pinterest link" width="18px" height="18px" class="social-icon">
+                </a>
+                <a href=#>
+                    <img src="icons/facebook-brands.svg" alt="facebook link" width="18px" height="18px" class="social-icon">
+                </a>
             </div>
-        </div>
+        </aside>
     </div>
 </div>
+
     <div class=main-content-area-3>
 
-        <div class="universal-post-3">
+        <section class="universal-post-3">
             <img class="post-image" alt="oranges" src="https://i.pinimg.com/474x/ec/fd/c2/ecfdc275e6532204bfbb4af8408ea294.jpg">
             <h3 class="post-header">Lorem Ipsum</h3>
             <p class="post-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam suscipit sint deleniti explicabo, maiores obcaecati quaerat aliquid molestiae dolore, quam porro. Ut consequatur beatae iure itaque laborum eaque? Distinctio.</p>
             <p><a href="#" class="post-link">Continue Reading</a></p>
-         </div>  
+        </section>  
 
-        <div class="universal-post-4">
+        <section class="universal-post-4">
             <img class="post-image" alt="mixing bowl" src="https://i.pinimg.com/474x/7e/e9/34/7ee934301291a2b6a04ad9fafa0f74f6.jpg">
             <h3 class="post-header">Lorem Ipsum</h3>
             <p class="post-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam suscipit sint deleniti explicabo, maiores obcaecati quaerat aliquid molestiae dolore, quam porro. Ut consequatur beatae iure itaque laborum eaque? Distinctio.</p>
             <p><a href="#" class="post-link">Continue Reading</a></p>
-        </div>
+        </section>
     </div>
         <!--<div class="universal-post">
             <img class="post-image" src="https://i.pinimg.com/474x/3f/d6/b8/3fd6b80898461db39f5898b69e03cb14.jpg">
@@ -200,7 +209,7 @@
 
 <!-- footer-->
 
-<div class="footer-container">
+<footer class="footer-container">
 
 <div class="about">
     <h3 class="footer-header about-header">ABOUT</h3>
@@ -226,10 +235,18 @@
         <li><a target="_blank" href=#><i class="fab fa-facebook-square fa-li"></i></a></li>
     </ul>-->
     <div class="connect-links">
-        <a target="_blank" href=#><i class="far fa-envelope"></i><span class="hidden">Gmail</span></a>
-        <a target="_blank" href=#><i class="fab fa-instagram"></i><span class="hidden">Instagram</span></a>
-        <a target="_blank" href=#><i class="fab fa-pinterest"></i><span class="hidden">Pinterest</span></a>
-        <a target="_blank" href=#><i class="fab fa-facebook-square"></i><span class="hidden">Facebook</span></a>
+        <a href=#>
+            <img src="icons/envelope-regular.svg" alt="email us link" width="18px" height="18px" class="social-icon">
+        </a>
+        <a href=#>
+            <img src="icons/instagram-brands.svg" alt="instagram link" width="18px" height="18px" class="social-icon">
+        </a>
+        <a href=#>
+            <img src="icons/pinterest-brands.svg" alt="pinterest link" width="18px" height="18px" class="social-icon">
+        </a>
+        <a href=#>
+            <img src="icons/facebook-brands.svg" alt="facebook link" width="18px" height="18px" class="social-icon">
+        </a>
     </div>
 </div>
 
@@ -244,7 +261,7 @@
 
 
 
-</div>
+</footer>
 <hr>
 </div>
 
