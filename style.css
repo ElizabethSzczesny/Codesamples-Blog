@@ -457,7 +457,6 @@ i{
     width: 0px;
     height: 0px;
     background-color: black;
-    transform: translateX(-50%);
 }
 
 
@@ -489,6 +488,7 @@ i{
         height:2px;
         background-color:blk;
         margin-bottom:10px;
+        /*transform: translateX(-50%);*/
     }
 
     .header-wrapper{
